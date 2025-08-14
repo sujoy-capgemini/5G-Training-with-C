@@ -1,0 +1,40 @@
+//!Preprocessor : Its means that 
+                # -> Preprocessor. 
+                #include<stdio.h> -> This is the header file also.
+
+     int-> 4 bytes -> 4*8=32 bits.
+     float->4 bytes -> 4*8=32 bits.
+     long -> 8 bytes -> 8*8=56 bits.
+
+
+//!Macros and Macro Function : (shortcut)
+        #define PI
+        #define Area(r)(PI*r*r)
+
+
+Memory Alocation:
+     static: which means that the Memory alocated during compile time.(Size fixed)
+     dynamic: which means that the Memory alocated during run time. (Size not fixed)
+
+stack Memory Alocation:
+   *Stack allocation happens in the function call stack
+    where each function gets its own memory for variables.
+
+Heap Memory Alocation :
+    *heap memory is controlled by programmer as there is no automatic garbage collection
+     
+     int n;
+     int *arr[]=new int[n]; //dynamic memory allocation
+
+   1.Memory allocation:
+      *To alocate memory in Heap 
+       malloc(),calloc()
+   2.Memory re allocation:
+      *To change the amount of memory allocated.
+       realloc()
+   3.Memory Deallocation:
+      *To deallocate the trapped memory
+       free()
+
+       
+

@@ -1,0 +1,14 @@
+Queue:
+A queue is a linear data structure
+that follows the FIFO (First In First Out) principle. 
+The element inserted first is removed first.
+
+Basic Queue Operations:
+Enqueue – Add an element to the rear.
+Dequeue – Remove an element from the front. complexcity : o(n)
+Peek/Front – View the front element.
+isFull – Check if the queue is full.
+isEmpty – Check if the queue is empty.
+
+
+

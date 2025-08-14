@@ -1,0 +1,69 @@
+Pointer :
+   *A pointer is a varibale.
+   *That store the memory address to the another varibale.
+
+   why use :
+   *To access the modify vaiable.
+   *To work with array string struture.
+   *To dynamic alocate memory.
+   *To pass the large data strature function without coping.
+
+
+pass by value and pass by refernce ?
+
+pass by value :
+  ->
+   *A copy of the variable is passed to the function.
+   *Changes inside the of function do not affect the original variable.
+   *Not chnage original value.
+
+passign by refernce :
+   *The address of the variable is passed.
+   *original value change.
+
+NULL pointer 
+is a special pointer
+value does not point to any valid memory location
+int *ptr = NULL;
+
+
+
+Strature :
+   *A strature is a user define data Type.
+   *That allow to group together varible of different data types under a signal name.
+   
+access structure members using a pointer -> this operator.
+   arrow operator ->
+
+   dot(.) direct access member 
+   allow(->)direct access member through pointer
+
+
+dynamic memory allocation use like : malloc
+   EX:
+   Book *ptr=(Book *)malloc(sizeof(Book));
+
+
+Memory Alocation:
+     static: compile time.(Size fixed)
+     dynamic: which means that the Memory alocated during run time. (Size not fixed)
+
+
+Heap Memory Alocation :
+    *heap memory is controlled by programmer as there is no automatic garbage collection
+     
+     int n;
+     int *arr[]=new int[n]; //dynamic memory allocation
+
+   1.Memory allocation:
+      *To alocate memory in Heap 
+      syntax:
+      pointer_variable = (cast_type *) malloc(size_in_bytes);
+      malloc(),
+      calloc()
+   2.Memory re allocation:
+      *To change the amount of memory allocated.
+       realloc()
+   3.Memory Deallocation:
+      *To deallocate the trapped memory
+       free()
