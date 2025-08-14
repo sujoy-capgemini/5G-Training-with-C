@@ -1,0 +1,22 @@
+Thread:
+   *A Thread is a small unit of process.
+   *It is a lightweight function that can run same time as other code.
+   *Thread allows a pogram to do multipal tasks at same time.
+
+Why Need:
+   *To do multipal task together.
+   *To make the pogram faster and more.
+   *To use less memory.
+
+How work in C?
+   *In c use POSIX Thread(pthread) libary.
+   *Craete function for the Thread.
+   *call pthread_create() to start the thread.
+   *pthread_join() to wait for the thread to finish.
+   
+Thread Function :
+   pthread_create ->start a new thread.
+   pthread_join ->wait for a thread to finish.
+   pthread_exit() ->end the thread.
+   pthread_t ->Data type for thread variable.
+

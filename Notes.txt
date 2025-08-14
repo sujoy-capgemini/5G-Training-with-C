@@ -1,0 +1,17 @@
+Q1.What is Inter Process Communication ?
+    ->Inter Process Communication is a mechanisum that allow processes to communicates
+      and synchronize when running concurrently in on OS.
+
+
+Shared Memory:
+   -> A memory segment is shared between processes.
+      allowing direct access to the same data.
+
+
+Pipes:
+   -> A unidrection Communication link where one Process
+      writes data and another read it.
+
+
+
+

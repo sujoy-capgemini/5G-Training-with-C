@@ -1,0 +1,17 @@
+Socket:
+   *A socket between two pogram.
+   *it helps two pogram send and resived data.
+   *Used in client-server communication.
+
+What is IPC?
+->*Ipc means Inter Process communication.
+  *Ipc means communication between two pograms running on the same comuputer.
+  *Ex: A game sending data to the sound syastem.
+
+What is Unix socket:
+-> *A Unix socket is socket that works inside the same comuputer.
+   *It does not Ip address or port No.
+   *it uses a file path like   /tmp/mysocket.
+   *Faster than Tcp/Ip because it avoid network steps.
+
+   

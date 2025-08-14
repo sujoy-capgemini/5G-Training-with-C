@@ -1,0 +1,20 @@
+socket communication step :
+ 1.server connection
+ 2.client connection
+
+server side connection :
+   1.socket()
+   2.bind()
+   3.listen()
+   4.accept()
+   5.recv()
+   6.send()
+   7.close()
+
+client side connection :
+   1.socket()
+   2.connect()
+   3.send()
+   4.recv()
+   5.close()
+
